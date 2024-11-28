@@ -19,12 +19,23 @@ java App
 ```
 
 The code uses a constant variable called ``CLOSED_LAP`` to determine whether or not it considers open laps as valid solutions.
-You can change it at line 4 of ``App.java`` to allow open laps (default true).
+You can change it at line 3 of ``App.java`` to allow open laps (default true).
 
 The code also uses a constant variable called ``SIZE`` to determine the size of the board that is being explored.
-You can change it at line 5 of ``App.java`` to change the size of the board (default 5).
+You can change it at line 4 of ``App.java`` to change the size of the board (default 5).
 
 ## Output
 
 The code is expected to print the solutions it finds during the execution.
 It should also print the number of geometrically distincts solutions and the time it took to find them at the end of the execution.
+
+The following solution starts with the knight at position [0 0], then moving to position [1 2], [4 4] and so on.
+
+```
+1  8  21 12 35 10
+14 29 36 9  20 23
+7  2  13 22 11 34
+28 15 30 3  24 19
+31 6  17 26 33 4
+16 27 32 5  18 25
+```

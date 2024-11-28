@@ -1,8 +1,7 @@
-
 public class App {
     public static int solutions;
     public static final boolean CLOSED_LAP = true; // change this to allow open laps
-    public static final int SIZE = 5; // change this to edit the board's size
+    public static final int SIZE = 6; // change this to edit the board's size
     
     public static void main(String[] args) {
         long st = System.currentTimeMillis();

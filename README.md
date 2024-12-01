@@ -19,10 +19,11 @@ java App
 ```
 
 The code uses a constant variable called ``CLOSED_LAP`` to determine whether or not it considers open laps as valid solutions.
-You can change it at line 3 of ``App.java`` to allow open laps (default true).
+You can change it at line 3 of ``App.java`` to only allow open laps (default false).
+Note that this greatly reduces the amount of possible boards, making it impractical to solve for a board bigger than 6x6.
 
 The code also uses a constant variable called ``SIZE`` to determine the size of the board that is being explored.
-You can change it at line 4 of ``App.java`` to change the size of the board (default 5).
+You can change it at line 4 of ``App.java`` to change the size of the board (default 8).
 
 ## Output
 
